@@ -4,8 +4,10 @@ Our group tackled the challenge of predicting traffic patterns with machine lear
 
 
 **Running environments**
+
 We utilized Jupyter Notebook to complete this project 
 
 **Major results**
+
 We examined and explored the traffic congestion dataset and chose one junction to train the two models. The RNN model performed poorly when we had 10 cell units and 10 epochs which led to an underfit model. After training with 30 units and 1000 epochs, the model fit became more suitable. The LSTM model with 70 units and 3000 epochs performed well but as it went further, it showed some underfitting. Overall the RNN model performed better with less units and epochs.   
 
